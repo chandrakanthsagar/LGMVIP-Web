@@ -1,13 +1,15 @@
-# TASK-01: TO DO LIST
+# TASK-01: To-Do List 
 
-This is a webpage where the user adds the tasks which he need to perform in the future after completion of the tasks the user can delete the task and also can strike of the task.
+TO-DO List are the lists that we generally use to maintain our day to day tasks or list of everything that we have to do,
+It is helpful in planning our daily schedules. We can add more tasks any time and delete a task which is completed.
 
-1) Create a Directory in you system.
-2) Copy the contents in the todo.html file and create .html file in the directory and paste the contents.
-3) In the same way create another file with .css extension and paste the contents of style.css into it.
-4) Now, open the .html file in the browser.
-5) Add the tasks and also click on the task in bottom you will see the strike-off on the task.
-6) And also click on the delete button so that task will be deleted.
+->Create a Directory in you system.
+-> Copy the contents in the todo.html file and create .html file in the directory and paste the contents.
+-> In the same way create another file with .css extension and paste the contents of style.css into it.
+-> Now, open the .html file in the browser.
+-> Add the tasks and also click on the task in bottom you will see the strike-off on the task.
+-> And also click on the delete button so that task will be deleted.
 
-=> In this way this Webpage will work
-=> This Webpage is Created with HTML, CSS, JavaScript.
+this how my website works
+
+=> Languages used: HTML,CSS ,Javascript.
