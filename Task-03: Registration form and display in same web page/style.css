@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+.box .headingg {
+    height: 8vh;
+    background: rgba(59, 24, 146, 0.651);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid black;  
+   
+}
+h1 {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 950;
+    letter-spacing: 3px;
+    text-shadow: 0 0 3px#b9cf3b;
+    user-select: none;
+    color: black;
+}
+.container {
+    height: auto;
+    background-color:rgb(59, 202, 176);
+    display: flex;
+    justify-content: center;
+}
+.container .form {
+    width: 50%;
+    background:#c469b8;
+}
+.container .form form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px;
+    word-wrap: break-word;
+}
+#name,
+#email,
+#website,
+#url {
+    width: 335px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    caret-color: rgb(230, 65, 10);
+    outline: 1px solid rgba(128, 128, 128, 0.26);
+    font-size: 15px;
+}
+#name:focus,
+#email:focus,
+#website:focus,
+#url:focus {
+    outline: 1px solid rgba(0, 0, 255, 0.711);
+}
+.name {
+    display: flex;
+    align-items: center;
+    gap: 8.6vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 9vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.website {
+    display: flex;
+    align-items: center;
+    gap: 7.4vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 7.7vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image {
+    display: flex;
+    align-items: center;
+    gap: 8.5vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    font-size: 1.25rem;
+}
+.text-p {
+    font-size: 1.18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.text-p label {
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+}
+.button {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+.button #submit {
+    padding: 8px 40px;
+    font-size: 1.2rem;
+    background-color: #3111d4;
+    border: none;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.button #reset {
+    padding: 8px 40px;
+    background-color: rgb(33, 226, 120);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+}
+.button #submit:active,
+.button #reset:active {
+    background-color: black;
+    box-shadow: none;
+}
+.op-box {
+    width: 50%;
+}
+.output {
+    padding: 45px;
+}
+h2 {
+    font-family: serif;
+    text-align: center;
+    padding: 5px; 
+    background-color: rgb(178, 127, 255); 
+    border: 2px solid black;
+    color: white;
+}
+.output .cardContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+    height: 73vh;
+}
+.output .card {
+    height: auto;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    gap: 5vw;
+}
+.card img {
+    border-radius: 0.5rem;
+    width: 150px;
+    height: 150px;
+}
+.card .info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card .info a {
+    color: rgb(58, 23, 233);
+}
+.card .info a:hover {
+    text-decoration: underline;
+}
+.card .info button {
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color:black;
+    color:white;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+    cursor: pointer; 
+    width:50%;
+} .card .info button:hover{
+    background-color:white;
+    color: black;
+}
+
+.card .info button:active {
+    background-color: rgb(13, 13, 13);
+    box-shadow: none;
+}
+@media only screen and (max-width:1000px) {
+    .container .line {
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .form {
+        width: 100%;
+    }
+    .op-box {
+        width: 100%;
+    }
+    .name,
+    .email,
+    .website,
+    .image,
+    .skills,
+    .gender {
+        justify-content: space-around;
+    }
+    .gender {
+        padding-right: 17vw;
+    }
+}
+@media only screen and (max-width:700px) {
+    h1 {
+        font-size: 25px;
+    }
+    .container .form form {
+        padding: 27px;
+    }
+}
+@media only screen and (max-width:450px) {
+    h1 {
+        font-size: 18px;
+    }
+    .output .card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card img {
+        margin: auto;
+    }
+}
