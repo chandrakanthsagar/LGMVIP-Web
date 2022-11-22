@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="headingg">
+            <h1>STUDENT REGISTRATION FORM</h1>
+        </div>
+        <div class="container">
+            <div class="form">
+                
+                <form autocomplete="off">
+                    <div class="name">
+                        <label for="name"><b>Name:</b></label>
+                        <input type="text" id="name" placeholder=" Enter your name " required autofocus>
+                    </div>
+                    <div class="email">
+                        <label for="email"><b>Email:</b>
+                            </label>
+                        <input type="email" id="email" placeholder="Enter your email" required >
+                    </div>
+                    <div class="website">
+                        <label for="website"><b>Photfolio</b></label>
+                        <input type="url" id="website" placeholder="https://www.abc.com" required>
+                    </div>
+                   
+                    <div class="gender">
+                        <label for="gender"><b>Gender:</b></label>
+                        <span class="text-p">
+                            <label><input type="radio" name="male-female" id="male" value="Male" required>Male</label>
+                            <label><input type="radio" name="male-female" id="female" value="Female"
+                                    required>Female</label>
+                            
+                        </span>
+                    </div>
+                    <div class="skills">
+                        <label for="skills"><b>Skills:</b></label>
+                        <span class="text-p">
+
+                            <label><input type="checkbox" value="HTML" id="html" class="checkbox">HTML</label>
+                            <label><input type="checkbox" value="CSS" id="css" class="checkbox">CSS</label>
+                            <label><input type="checkbox" value="JS" id="css" class="checkbox">JS</label>
+                            
+
+                        </span>
+                    </div>
+                    <div class="image link">
+                        <label for="url"><b>Image:</b></label>
+                        <input type="url" id="url" placeholder="Enter the Image URL..." required>
+                    </div>
+                    <div class="button">
+                        <button type="submit" id="submit">Enroll</button>
+                        <button type="reset" id="reset">Clear </button>
+                    </div>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div class="op-box">
+                <div class="output">
+                    <h2> REGISTERED STUDENTS</h2>
+                    <div class="cardContainer" id="cardContainer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
